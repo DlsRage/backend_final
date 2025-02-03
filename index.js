@@ -1,6 +1,6 @@
 import express from 'express'
 //import { Student } from './Model/file-system/ModelStudents.js'
-import { Student } from './Model/file-system/ModelStudents'
+import { Student } from './Model/file-system/ModelStudents.js'
 import { RoutesStudents } from './Routes/RouteStudent.js'
 import cors from 'cors'
 const app = express()
